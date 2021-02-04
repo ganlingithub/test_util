@@ -5,7 +5,7 @@ public class SegmentTree {
         // write your code here
         if(start==end){
             SegmentTreeNode cru=new SegmentTreeNode(start,end,nums[start]);
-            return cru;
+            return cru;//
         }else if(start<end){
             SegmentTreeNode cru=new SegmentTreeNode(start,end);
             cru.left=build(start,(start + end) / 2,nums,func);
