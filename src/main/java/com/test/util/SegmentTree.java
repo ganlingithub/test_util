@@ -29,7 +29,7 @@ public class SegmentTree {
         }
         // 如果查询区间和右边节点区间有交集,则寻找查询区间在右边区间上的最大值
         if (mid + 1 <= end) {
-            ans = Math.max(ans, query(root.right, start, end,func,init_val));
+            ans = func.comput(ans, query(root.right, start, end,func,init_val));
         }
         return ans;
     }

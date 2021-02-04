@@ -144,30 +144,30 @@ public class Solution {
         System.out.println(1);
         return a;
     }
-    public SegmentTreeNode build(int[] arr,int start, int end) {
-        // write your code here
-        if(start==end){
-            SegmentTreeNode cru=new SegmentTreeNode(start,end);
-            cru.sum=arr[start];
-            return cru;
-        }else if(start<end){
-            SegmentTreeNode cru=new SegmentTreeNode(start,end);
-            cru.left=build(arr,start,(start + end) / 2);
-            cru.right=build(arr,(start + end) / 2+1,end);
-            cru.sum=cru.left.sum+cru.right.sum;
-            return cru;
-        }
-        return null;
-    }
-    public int sum(SegmentTreeNode temp,int start, int end){
-        if (start > end)
-            return 0;
-        if (temp.start == start && temp.end == end) {
-            return temp.sum;
-        }
-        return sum(temp.left,start,Math.min(end,temp.left.end))
-                + sum(temp.right,Math.max(start,temp.right.start),end);
-    }
+    //public SegmentTreeNode build(int[] arr,int start, int end) {
+    //    // write your code here
+    //    if(start==end){
+    //        SegmentTreeNode cru=new SegmentTreeNode(start,end);
+    //        cru.sum=arr[start];
+    //        return cru;
+    //    }else if(start<end){
+    //        SegmentTreeNode cru=new SegmentTreeNode(start,end);
+    //        cru.left=build(arr,start,(start + end) / 2);
+    //        cru.right=build(arr,(start + end) / 2+1,end);
+    //        cru.sum=cru.left.sum+cru.right.sum;
+    //        return cru;
+    //    }
+    //    return null;
+    //}
+    //public int sum(SegmentTreeNode temp,int start, int end){
+    //    if (start > end)
+    //        return 0;
+    //    if (temp.start == start && temp.end == end) {
+    //        return temp.sum;
+    //    }
+    //    return sum(temp.left,start,Math.min(end,temp.left.end))
+    //            + sum(temp.right,Math.max(start,temp.right.start),end);
+    //}
     public static void verify(int[] nums) {
         for(int i=0;i<nums.length-1;i++){
             if(nums[i]>nums[i+1]){
