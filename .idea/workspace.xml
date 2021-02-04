@@ -6,14 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53652efc-f09e-41cb-8f28-5747425b51b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/com/test/util/LRUCacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/test/util/Soultion135Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/test/util/Soultion78Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/test_flink_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/test_flink_jar.xml" afterDir="false" />
+    <list default="true" id="53652efc-f09e-41cb-8f28-5747425b51b8" name="Default Changelist" comment="flink_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/MaxHeap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1007">
-              <caret line="57" column="20" lean-forward="true" selection-start-line="2" selection-end-line="71" selection-end-column="1" />
+              <caret line="57" column="20" selection-start-line="2" selection-end-line="71" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -48,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/SegmentTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="513">
               <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
             </state>
           </provider>
@@ -58,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/SegmentTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,10 +65,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="28" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="28" />
-              <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#115#116#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/Soultion78.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="437">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/Soultion135.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -120,6 +110,7 @@
     <option name="ONTO" value="refs/heads/first" />
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -180,7 +171,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
+    <option name="x" value="229" />
+    <option name="y" value="37" />
     <option name="width" value="1845" />
     <option name="height" value="1032" />
   </component>
@@ -200,40 +192,6 @@
             <path>
               <item name="test_flink" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="test_flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="test_flink" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="test_flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="test_flink" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="test_flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="test_flink" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="test_flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="test_flink" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="test_flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="test_flink" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="test_flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com.test.util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="test_flink" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -263,7 +221,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -423,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612406197334</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="flink_1">
+      <created>1612406688191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612406688191</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -468,10 +433,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="27" width="1230" height="688" extended-state="1" />
-    <editor active="true" />
+    <frame x="153" y="25" width="1230" height="688" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2721843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2764505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -487,7 +451,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.497979" weight="0.3285968" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.497979" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5127986" side_tool="true" weight="0.12769784" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49717057" weight="0.35523978" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49717057" visible="true" weight="0.35431653" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4769604" weight="0.41366908" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -808,27 +772,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/Soultion135.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/Soultion78.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/MaxHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1007">
-          <caret line="57" column="20" lean-forward="true" selection-start-line="2" selection-end-line="71" selection-end-column="1" />
+          <caret line="57" column="20" selection-start-line="2" selection-end-line="71" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -839,28 +786,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/SegmentTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/IntegerFunc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/Soultion78.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#115#116#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/SegmentTree.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/util/Soultion135.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        <state relative-caret-position="152">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/SegmentTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
